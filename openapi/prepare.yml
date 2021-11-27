@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
-  title: title
-  version: 1.0.0
+  title: experimental-tsr
+  version: 0.0.1
 paths:
   '/users':
     $ref: 'paths/users.yml'
