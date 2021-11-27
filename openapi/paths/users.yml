@@ -3,7 +3,7 @@ get:
     - users
   operationId: getUsers
   responses:
-    200:
+    '200':
       description: Pointの取得成功
       content:
         application/json:
@@ -14,11 +14,11 @@ get:
             properties:
               user_name:
                 type: string
-    400:
+    '400':
       description: Bad Request
-    401:
+    '401':
       description: Unauthorized
-    500:
+    '500':
       description: Internal Server Error
 post:
   tags:
@@ -36,7 +36,7 @@ post:
             user_name:
               type: string
   responses:
-    201:
+    '201':
       description: Created
       content:
         application/json:
@@ -47,13 +47,13 @@ post:
             properties:
               user_name:
                 type: string
-    400:
+    '400':
       description: Bad Request
-    401:
+    '401':
       description: Unauthorized
-    404:
+    '404':
       description: Not Found
-    422:
+    '422':
       description: Unprocessable Entity
-    500:
+    '500':
       description: Internal Server Error

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "swagger-cli bundle -o openapi.yml -t yaml prepare.yml"
   },
   "license": "ISC",
   "devDependencies": {
